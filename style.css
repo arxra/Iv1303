@@ -12,6 +12,34 @@
   padding: 35px;
 }
 
+#head ul {
+  display: table;
+  margin: 0 auto;
+  list-style: none;
+}
+
+#head li {
+  list-style-type: none;
+  style:none;
+  box-shadow:#666 3px 3px 10px;
+  display: inline;
+  float: left;
+  padding: 5px;
+  margin: 15px;
+}
+
+#head a {
+  text-decoration: none;
+  display: block;    
+  padding: 10px;
+  color:  #000;
+}
+
+#head a:visited {
+  color: #000;
+  font-style: none;
+}
+
 .screw {
   background-color: inherit;
   text-align: center;
